@@ -61,3 +61,7 @@ update:
   rpm-ostree update
   flatpak update -y
   distrobox upgrade -a
+  
+setup-nix:
+  echo 'Installing nix...'
+  /usr/bin/nix-installer-1
