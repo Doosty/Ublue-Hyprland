@@ -18,6 +18,15 @@ rpms:
   - hyprland
   - waybar-hyprland
   - xdg-desktop-portal-hyprland
+  - wlogout
+  - wofi
+  - kitty
+  - qt5ct
+  - btop
+  - imv
+  - neofetch
+  - thunar
+  - xorg-x11-server-Xwayland
 # These Flatpaks (from flathub) will be available for install on boot
 # this is just an example selection.
 # If you leave this empty you can use yafti for post-boot installation
