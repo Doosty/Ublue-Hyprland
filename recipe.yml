@@ -20,6 +20,8 @@ rpms:
   - xdg-desktop-portal-hyprland
   - copyq
   - thunar
+  - thunar-archive-plugin
+  - thunar-volman
   - wlogout
   - wofi
   - kitty
@@ -29,6 +31,7 @@ rpms:
   - neofetch
   - xorg-x11-server-Xwayland
   - polkit
+  - pavucontrol
 # These Flatpaks (from flathub) will be available for install on boot
 # this is just an example selection.
 # If you leave this empty you can use yafti for post-boot installation
