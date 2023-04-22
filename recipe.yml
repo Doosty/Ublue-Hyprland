@@ -32,6 +32,7 @@ rpms:
   - xorg-x11-server-Xwayland
   - polkit
   - pavucontrol
+  - libadwaita
 # These Flatpaks (from flathub) will be available for install on boot
 # this is just an example selection.
 # If you leave this empty you can use yafti for post-boot installation
