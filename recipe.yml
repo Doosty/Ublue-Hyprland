@@ -18,18 +18,21 @@ rpms:
   - hyprland
   - waybar-hyprland
   - xdg-desktop-portal-hyprland
+  - copyq
+  - thunar
   - wlogout
   - wofi
   - kitty
-  - qt5ct
   - btop
   - imv
+  - qt5ct
   - neofetch
-  - thunar
   - xorg-x11-server-Xwayland
+  - polkit
 # These Flatpaks (from flathub) will be available for install on boot
 # this is just an example selection.
 # If you leave this empty you can use yafti for post-boot installation
 flatpaks:
   - org.mozilla.firefox
   - org.freedesktop.Platform.ffmpeg-full
+  - com.discordapp.Discord
