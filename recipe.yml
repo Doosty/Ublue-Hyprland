@@ -18,6 +18,8 @@ rpms:
   - hyprland
   - waybar-hyprland
   - xdg-desktop-portal-hyprland
+  - sdmm
+  #- mako
   - copyq
   - thunar
   - thunar-archive-plugin
