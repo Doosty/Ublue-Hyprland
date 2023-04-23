@@ -26,6 +26,7 @@ distrobox-ubuntu:
 setup-flatpaks:
   #!/bin/bash
   echo 'Installing flatpaks from the ublue recipe ...'
+  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
   flatpaks=$(yq '.flatpaks[]' < /etc/ublue-recipe.yml)
   for pkg in $flatpaks; do \
       echo "Installing: ${pkg}" && \
