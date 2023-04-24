@@ -18,7 +18,7 @@ rpms:
   - hyprland
   - waybar-hyprland
   - xdg-desktop-portal-hyprland
-  - sddm
+  #- sddm
   #- mako
   - copyq
   - thunar
