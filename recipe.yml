@@ -34,7 +34,9 @@ rpms:
   - qt5ct
   - neofetch
   - xorg-x11-server-Xwayland
-  - polkit-kde
+  #- polkit-kde
+  - xfce-polkit
+  - gparted
   - pavucontrol
   - libadwaita
   - wev
