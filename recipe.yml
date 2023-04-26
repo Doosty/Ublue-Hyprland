@@ -16,7 +16,7 @@ description: A starting point for further customization of uBlue images. Make yo
 rpms:
   - python3-pip # needed for yafti (the first boot installer)
   - hyprland
-  #- waybar-hyprland
+  - waybar-hyprland
   - xdg-desktop-portal-hyprland
   #- sddm
   - mako
