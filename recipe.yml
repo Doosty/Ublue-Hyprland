@@ -19,7 +19,7 @@ rpms:
   - waybar-hyprland
   - xdg-desktop-portal-hyprland
   #- sddm
-  #- mako
+  - mako
   - copyq
   - thunar
   - thunar-archive-plugin
@@ -27,14 +27,24 @@ rpms:
   - wlogout
   - wofi
   - kitty
+  - alacritty
   - btop
   - imv
+  - zathura
   - qt5ct
   - neofetch
   - xorg-x11-server-Xwayland
-  - polkit
+  - polkit-kde
   - pavucontrol
   - libadwaita
+  - wev
+  - yt-dlp
+  - discord
+  - grim
+  - slurp
+  - swappy
+  - helix
+  
 # These Flatpaks (from flathub) will be available for install on boot
 # this is just an example selection.
 # If you leave this empty you can use yafti for post-boot installation
