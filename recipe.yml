@@ -14,6 +14,7 @@ description: A starting point for further customization of uBlue images. Make yo
 # These rpms will be installed from the fedora repository
 # using rpm-ostree and will be preinstalled in the final image
 # https://src.fedoraproject.org/projects/rpms/*
+# https://copr.fedorainfracloud.org/coprs/
 rpms:
   - python3-pip # needed for yafti (the first boot installer)
   - hyprland
@@ -21,26 +22,18 @@ rpms:
   - xdg-desktop-portal-hyprland
   - xorg-x11-server-Xwayland
   - mako
+  - libnotify
   - copyq
   - thunar
   - thunar-archive-plugin
   - thunar-volman
   - wlogout
-  - wofi
-  - kitty
-  - alacritty
   - btop
   - imv
   - zathura
   - qt5ct
   - neofetch
   - mpv
-  
-  #TODO:decide on one
-  #- polkit-kde
-  - xfce-polkit
-  #- polkit-gnome
-  
   - gparted
   - pavucontrol
   - libadwaita
@@ -50,7 +43,22 @@ rpms:
   - grim
   - slurp
   - swappy
+
+  #TODO pick one
+  - wofi
+  - fuzzel
+
+  #TODO pick one
+  - kitty
+  - alacritty
+  - foot
   
+  #TODO pick one
+  #- polkit-kde
+  - xfce-polkit
+  #- polkit-gnome
+  
+
   #- helix #flatpak
   #- sddm #TODO lemurs
   

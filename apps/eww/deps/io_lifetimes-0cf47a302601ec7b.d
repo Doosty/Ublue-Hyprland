@@ -1,0 +1,12 @@
+/home/blazp/apps/eww/target/release/deps/io_lifetimes-0cf47a302601ec7b.rmeta: /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/lib.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/portability.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/traits.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/example_ffi.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/raw.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/views.rs
+
+/home/blazp/apps/eww/target/release/deps/libio_lifetimes-0cf47a302601ec7b.rlib: /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/lib.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/portability.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/traits.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/example_ffi.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/raw.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/views.rs
+
+/home/blazp/apps/eww/target/release/deps/io_lifetimes-0cf47a302601ec7b.d: /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/lib.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/portability.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/traits.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/example_ffi.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/raw.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/views.rs
+
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/lib.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/portability.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/traits.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/example_ffi.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/raw.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.2/src/views.rs:

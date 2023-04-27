@@ -1,0 +1,41 @@
+processing file `/home/blazp/apps/eww/crates/simplexpr/src/simplexpr_parser.lalrpop`
+Phase `Grammar validation` begun
+Phase `Grammar validation` completed in 0.000557022 seconds
+Phase `Grammar resolution` begun
+Phase `Grammar resolution` completed in 0.000111748 seconds
+Phase `Precedence expansion` begun
+Phase `Precedence expansion` completed in 0.000240602 seconds
+Phase `Macro expansion` begun
+Phase `Macro expansion` completed in 0.000421563 seconds
+Phase `Token check` begun
+Phase `Token check` completed in 0.000182395 seconds
+Phase `Infer types` begun
+Phase `Infer types` completed in 0.000336527 seconds
+Phase `Lowering` begun
+Phase `Lowering` completed in 0.001889845 seconds
+Phase `Inlining` begun
+Phase `Inlining` completed in 0.001220449 seconds
+Building states for public nonterminal `Expr`
+Phase `LR(1) state construction (lane)` begun
+Phase `LR(1) state construction (lane)` completed in 0.391027874 seconds
+Building states for public nonterminal `Expr0`
+Phase `LR(1) state construction (lane)` begun
+Phase `LR(1) state construction (lane)` completed in 0.376954559 seconds
+Building states for public nonterminal `Expr1`
+Phase `LR(1) state construction (lane)` begun
+Phase `LR(1) state construction (lane)` completed in 0.370765141 seconds
+Building states for public nonterminal `Expr2`
+Phase `LR(1) state construction (lane)` begun
+Phase `LR(1) state construction (lane)` completed in 0.364852317 seconds
+Building states for public nonterminal `Expr3`
+Phase `LR(1) state construction (lane)` begun
+Phase `LR(1) state construction (lane)` completed in 0.372494099 seconds
+Building states for public nonterminal `Expr4`
+Phase `LR(1) state construction (lane)` begun
+Phase `LR(1) state construction (lane)` completed in 0.371726732 seconds
+Building states for public nonterminal `Expr5`
+Phase `LR(1) state construction (lane)` begun
+Phase `LR(1) state construction (lane)` completed in 0.388966399 seconds
+Building states for public nonterminal `Expr6`
+Phase `LR(1) state construction (lane)` begun
+Phase `LR(1) state construction (lane)` completed in 0.451862629 seconds

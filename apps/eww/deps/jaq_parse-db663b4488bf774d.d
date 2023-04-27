@@ -1,0 +1,13 @@
+/home/blazp/apps/eww/target/release/deps/jaq_parse-db663b4488bf774d.rmeta: /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/lib.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/filter.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/ops.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/path.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/prec_climb.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/token.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/toplevel.rs
+
+/home/blazp/apps/eww/target/release/deps/libjaq_parse-db663b4488bf774d.rlib: /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/lib.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/filter.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/ops.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/path.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/prec_climb.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/token.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/toplevel.rs
+
+/home/blazp/apps/eww/target/release/deps/jaq_parse-db663b4488bf774d.d: /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/lib.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/filter.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/ops.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/path.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/prec_climb.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/token.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/toplevel.rs
+
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/lib.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/filter.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/ops.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/path.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/prec_climb.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/token.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/jaq-parse-0.9.0/src/toplevel.rs:

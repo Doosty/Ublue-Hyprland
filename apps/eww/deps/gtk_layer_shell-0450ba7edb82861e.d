@@ -1,0 +1,11 @@
+/home/blazp/apps/eww/target/release/deps/gtk_layer_shell-0450ba7edb82861e.rmeta: /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/lib.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/auto/mod.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/auto/enums.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/auto/functions.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/manual.rs
+
+/home/blazp/apps/eww/target/release/deps/libgtk_layer_shell-0450ba7edb82861e.rlib: /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/lib.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/auto/mod.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/auto/enums.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/auto/functions.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/manual.rs
+
+/home/blazp/apps/eww/target/release/deps/gtk_layer_shell-0450ba7edb82861e.d: /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/lib.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/auto/mod.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/auto/enums.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/auto/functions.rs /home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/manual.rs
+
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/lib.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/auto/mod.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/auto/enums.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/auto/functions.rs:
+/home/blazp/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-layer-shell-0.4.4/src/manual.rs:
