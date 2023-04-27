@@ -13,6 +13,7 @@ fedora-version: 38
 description: A starting point for further customization of uBlue images. Make your own! https://ublue.it/making-your-own/
 # These rpms will be installed from the fedora repository
 # using rpm-ostree and will be preinstalled in the final image
+# https://src.fedoraproject.org/projects/rpms/*
 rpms:
   - python3-pip # needed for yafti (the first boot installer)
   - hyprland
@@ -36,9 +37,9 @@ rpms:
   - mpv
   
   #TODO:decide on one
-  - polkit-kde
+  #- polkit-kde
   - xfce-polkit
-  - polkit-gnome
+  #- polkit-gnome
   
   - gparted
   - pavucontrol
@@ -59,4 +60,6 @@ rpms:
 flatpaks:
   - org.mozilla.firefox
   - org.freedesktop.Platform.ffmpeg-full
-  - com.discordapp.Discord
+  #- com.discordapp.Discord
+  #- io.github.spacingbat3.webcord
+
