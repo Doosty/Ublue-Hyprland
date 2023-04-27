@@ -23,3 +23,6 @@ RUN rm -rf \
         /tmp/* \
         /var/* && \
     ostree container commit
+    
+# fix for ublue base-main booting into a black screen
+RUN systemctl enable getty@tty1
