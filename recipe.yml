@@ -34,16 +34,25 @@ rpms:
   - neofetch
   - mpv
   - gparted
+  - liveusb-creator
   - pavucontrol
   - wev
   - yt-dlp
   - discord
+  - tailscale
 
   #- dbus-tools
 
   #yafti deps
   - python3-pip
   - libadwaita
+
+  #virtualisation
+  #- virt-install
+  #- virt-manager
+  #- virt-viewer
+  #- libvirt-client
+  #- libvirt-daemon-kvm
 
   #screenshotting  
   - grim
