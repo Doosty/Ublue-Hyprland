@@ -16,12 +16,11 @@ description: A starting point for further customization of uBlue images. Make yo
 # https://src.fedoraproject.org/projects/rpms/*
 # https://copr.fedorainfracloud.org/coprs/
 rpms:
-  - python3-pip # needed for yafti (the first boot installer)
   - hyprland
   - waybar-hyprland
   - xdg-desktop-portal-hyprland
   - xorg-x11-server-Xwayland
-  - mako
+  - xfce-polkit
   - libnotify
   - copyq
   - thunar
@@ -36,27 +35,33 @@ rpms:
   - mpv
   - gparted
   - pavucontrol
-  - libadwaita
   - wev
   - yt-dlp
   - discord
+
+  #- dbus-tools
+
+  #yafti deps
+  - python3-pip
+  - libadwaita
+
+  #screenshotting  
   - grim
   - slurp
   - swappy
 
-  #TODO pick one
+  #pick one
+  - dunst
+  - mako
+  #pick one
   - wofi
   - fuzzel
-
-  #TODO pick one
+  #pick one
   - kitty
   - alacritty
   - foot
+  #wezterm not in rpm
   
-  #TODO pick one
-  #- polkit-kde
-  - xfce-polkit
-  #- polkit-gnome
   
 
   #- helix #flatpak

@@ -1,6 +1,0 @@
-cargo:rustc-env=GIT_HASH=e76206817de1cb86ec431dcff7d4b04c8b7d36fc
-
-cargo:rustc-env=CARGO_PKG_VERSION=0.4.0 e76206817de1cb86ec431dcff7d4b04c8b7d36fc
-
-cargo:rustc-env=GIT_COMMIT_DATE=2023-03-26 13:10:35 +0200
-
