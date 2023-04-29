@@ -15,8 +15,8 @@ COPY ${RECIPE} /tmp/ublue-recipe.yml
 COPY --from=docker.io/mikefarah/yq /usr/bin/yq /usr/bin/yq
 
 # copy and run the build script
-COPY build.sh /tmp/build.sh
-RUN chmod +x /tmp/build.sh && /tmp/build.sh
+#COPY build.sh /tmp/build.sh
+#RUN chmod +x /tmp/build.sh && /tmp/build.sh
 
 # copy and setup binaries
 COPY myapps  /tmp/myapps
