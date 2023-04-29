@@ -65,4 +65,4 @@ update:
   
 setup-nix:
   echo 'Installing nix...'
-  /usr/bin/nix-installer-1
+  /usr/bin/nix-installer

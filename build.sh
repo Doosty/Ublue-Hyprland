@@ -20,6 +20,3 @@ flatpaks=$(yq '.flatpaks[]' < /tmp/ublue-recipe.yml)
 for pkg in $(echo -e "$flatpaks"); do \
     yq -i ".screens.applications.values.groups.Custom.packages += [{\"$pkg\": \"$pkg\"}]" /etc/yafti.yml
 done
-
-# copy over binaries
-"./apps/setup-apps.sh"
