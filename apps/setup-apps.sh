@@ -12,7 +12,7 @@ find "$source" -mindepth 1 -maxdepth 1 -type d | while read subdir; do
 	    echo "Copying $(readlink -f $item) to $dest"
         fi
     done
-    setupscript="$(readlink -f $subdir/setupscript.sh)"
+    setupscript="$(readlink -f $subdir)/setupscript.sh)"
     # if setupscript exists, make executable and run
     if [ -f "$setupscript" ]; then
         if [ ! -x "$setupscript" ]; then
