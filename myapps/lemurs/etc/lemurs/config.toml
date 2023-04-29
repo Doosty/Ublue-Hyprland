@@ -39,7 +39,7 @@
 #
 
 # The tty which contains lemurs. This has to be mirrored in the lemurs.service
-tty = 2
+tty = 1
 
 # The value of the `DISPLAY` environment variable for X11 sessions
 x11_display = ":1"

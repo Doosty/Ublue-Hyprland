@@ -30,3 +30,12 @@ RUN rm -rf \
 
 # fix for ublue base-main booting into a black screen
 RUN systemctl enable getty@tty1
+
+# allow flatpaks access to themes
+RUN flatpak override --filesystem=$HOME/.themes
+RUN flatpak override --filesystem=$HOME/.icons
+RUN flatpak override --env=GTK_THEME=Dracula 
+RUN flatpak override --env=ICON_THEME=Dracula 
+RUN flatpak override --env=XCURSOR_SIZE=32
+RUN flatpak override --env=XCURSOR_THEME=phinger-cursors-light
+

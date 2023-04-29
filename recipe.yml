@@ -20,6 +20,7 @@ rpms:
   - waybar-hyprland
   - xdg-desktop-portal-hyprland
   - xorg-x11-server-Xwayland
+  - wdisplays
   - xfce-polkit
   - libnotify
   - copyq
@@ -51,11 +52,11 @@ rpms:
   - libadwaita
 
   #virtualisation
-  #- virt-install
-  #- virt-manager
-  #- virt-viewer
-  #- libvirt-client
-  #- libvirt-daemon-kvm
+  - virt-install
+  - virt-manager
+  - virt-viewer
+  - libvirt-client
+  - libvirt-daemon-kvm
 
   #screenshotting  
   - grim
@@ -63,15 +64,15 @@ rpms:
   - swappy
 
   #pick one
-  - dunst
+  #- dunst
   - mako
   #pick one
-  - wofi
+  #- wofi
   - fuzzel
   #pick one
   - kitty
-  - alacritty
-  - foot
+  #- alacritty
+  #- foot
   #wezterm not in rpm
 
   
@@ -81,6 +82,7 @@ rpms:
 flatpaks:
   - org.mozilla.firefox
   - org.freedesktop.Platform.ffmpeg-full
-  #- com.discordapp.Discord #flatpak override --user --socket=wayland com.discordapp.Discord
+  # make noninteractive ->  //22.05 -y --noninteractive
+  #- com.discordapp.Discord # force wayland ->flatpak override --user --socket=wayland com.discordapp.Discord
   #- io.github.spacingbat3.webcord
 

@@ -1,28 +1,25 @@
+output=DP-1
+default-timeout=3000
+ignore-timeout=true
+actions=true
+format=<b>%s</b>\n%b
+font=monospace 10
+background-color=#101010
+text-color=#FFFFFFFF
+border-color=#4d004d
 max-visible=5
 sort=-time
-output=DP-1
 layer=top
 anchor=bottom-right
-
-font=monospace 10
-background-color=#2b3339
-text-color=#FFFFFFFF
 width=300
 height=100
-margin=10
+margin=30
 padding=5
 border-size=1
-border-color=#83b6af
-border-radius=0
+border-radius=3
 progress-color=over #5588AAFF
 icons=true
 max-icon-size=64
-
 markup=true
-actions=true
-format=<b>%s</b>\n%b
-default-timeout=2500
-ignore-timeout=true
-
 
 

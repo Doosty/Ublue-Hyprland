@@ -1,3 +1,5 @@
-[icon theme] 
-Inherits=Nordzy-cursors-white
+[Icon Theme]
+Name=Default
+Comment=Default Cursor Theme
+Inherits=phinger-cursors-light
 
