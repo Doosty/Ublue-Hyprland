@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source="."
-dest="/home/blazp/testcopy"
+dest="/"
 # loop over sub-directories in source
 find "$source" -mindepth 1 -maxdepth 1 -type d | while read subdir; do
     # copy dirs inside subdir
