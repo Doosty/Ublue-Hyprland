@@ -19,8 +19,8 @@ COPY myapps  /tmp/myapps
 RUN chmod +x /tmp/myapps/setup-apps.sh && /tmp/myapps/setup-apps.sh
 
 # copy and run the build script
-#COPY build.sh /tmp/build.sh
-#RUN chmod +x /tmp/build.sh && /tmp/build.sh
+COPY build.sh /tmp/build.sh
+RUN chmod +x /tmp/build.sh && /tmp/build.sh
 
 # clean up and finalize container build
 RUN rm -rf \
