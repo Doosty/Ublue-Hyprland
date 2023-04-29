@@ -18,6 +18,10 @@ COPY --from=docker.io/mikefarah/yq /usr/bin/yq /usr/bin/yq
 COPY build.sh /tmp/build.sh
 RUN chmod +x /tmp/build.sh && /tmp/build.sh
 
+# copy and setup binaries
+COPY apps /tmp/apps
+RUN chmod +x /tmp/apps/setup-apps.sh && /tmp/apps/setup-apps.sh
+
 # clean up and finalize container build
 RUN rm -rf \
         /tmp/* \

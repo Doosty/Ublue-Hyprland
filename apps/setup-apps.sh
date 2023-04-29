@@ -13,14 +13,13 @@ find "$source" -mindepth 1 -maxdepth 1 -type d | while read subdir; do
         fi
     done
     setupscript="$subdir/setupscript.sh"
-    # if exists and is executable, run setup script
+    # if setupscript exists, make executable and run
     if [ -f "$setupscript" ]; then
-        if [ -x "$setupscript" ]; then
-            echo "Running $setupscript"
-            "$setupscript"
-        else
-            echo "Error: $setupscript is not executable."
+        if [ ! -x "$setupscript" ]; then
+	    chmod +x "$setupscript"
         fi
+        echo "Running $setupscript"
+        "$setupscript"
     fi
 done
 
