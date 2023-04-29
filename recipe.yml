@@ -38,8 +38,8 @@ rpms:
   - pavucontrol
   - wev
   - yt-dlp
-  - discord
   - tailscale
+  #- discord
 
   #text editor
   - helix
