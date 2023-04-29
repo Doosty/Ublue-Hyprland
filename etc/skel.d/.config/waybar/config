@@ -1,0 +1,70 @@
+[
+  {
+    "output": [
+      "DP-1"
+    ],
+    "clock": {
+      "tooltip-format": " <big>{:%d %B %Y}</big>\n<tt><small>{calendar}</small></tt> "
+    },
+    "cpu": {
+      "format": " CPU {usage}% ",
+      "interval": 1
+    },
+    "disk": {
+      "format": " DRIVE {percentage_used}% ",
+      "interval": 60,
+      "path": "/"
+    },
+    "layer": "top",
+    "memory": {
+      "format": " RAM {percentage}% ",
+      "interval": 5,
+      "tooltip-format": "using {used} / {total} GB"
+    },
+    "modules-center": [],
+    "modules-left": [
+      "wlr/workspaces"
+    ],
+    "modules-right": [
+      "network#speed",
+      "network",
+      "cpu",
+      "memory",
+      "disk",
+      "temperature",
+      "clock",
+      "tray"
+    ],
+    "network": {
+      "format-disconnected": " <span font='16'>睊</span> Not connected ",
+      "format-ethernet": " {ipaddr} ",
+      "format-linked": " <span font='16'>睊</span> {ifname} (No IP) ",
+      "tooltip-format": "{ifname}\n{essid}\n{ipaddr} /{cidr}"
+    },
+    "network#speed": {
+      "interval": 1
+    },
+    "position": "bottom",
+    "temperature": {
+      "critical-threshold": 70,
+      "format": " {temperatureC}°C ",
+      "format-icons": [
+      ],
+      "interval": 2
+    },
+    "tray": {
+      "show-passive-items": true
+    },
+    "wlr/workspaces": {
+      "active-only": false,
+      "all-outputs": false,
+      "disable-scroll": false,
+      "disable-scroll-wraparound": true,
+      "enable-bar-scroll": true,
+      "on-click": "activate",
+      "on-scroll-down": "/usr/bin/hyprctl dispatch workspace m-1",
+      "on-scroll-up": "/usr/bin/hyprctl dispatch workspace m+1",
+      "sort-by-number": true
+    }
+  }
+]

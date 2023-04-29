@@ -1,0 +1,36 @@
+* {
+  min-height: 0;
+  min-width: 0;
+  border: none;
+  margin: 0;
+  border-radius: 0;
+  font-family: "JetBrains Mono", "Font Awesome 6 Free Solid";
+}
+window#waybar {
+  background: #0f0f0f;
+}
+#workspaces button {
+  margin: 2px;
+  background: #262626;
+  border-radius: 5px;
+  color: #ac8aac;
+}
+#workspaces button.active {
+  background: #ac8aac;
+  color: #262626;
+}
+#tray,
+#cpu,
+#disk,
+#temperature,
+#memory,
+#pulseaudio,
+#network,
+#clock {
+  background: #262626;
+  color: #ac8aac;
+  margin: 5px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}

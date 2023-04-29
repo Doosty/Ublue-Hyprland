@@ -41,6 +41,9 @@ rpms:
   - discord
   - tailscale
 
+  #text editor
+  - helix
+
   #- dbus-tools
 
   #yafti deps
@@ -70,11 +73,7 @@ rpms:
   - alacritty
   - foot
   #wezterm not in rpm
-  
-  
 
-  #- helix #flatpak
-  #- sddm #TODO lemurs
   
 # These Flatpaks (from flathub) will be available for install on boot
 # this is just an example selection.
@@ -82,6 +81,6 @@ rpms:
 flatpaks:
   - org.mozilla.firefox
   - org.freedesktop.Platform.ffmpeg-full
-  #- com.discordapp.Discord
+  #- com.discordapp.Discord #flatpak override --user --socket=wayland com.discordapp.Discord
   #- io.github.spacingbat3.webcord
 

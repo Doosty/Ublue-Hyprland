@@ -1,0 +1,41 @@
+-- mod-version:3
+local syntax = require "core.syntax"
+
+syntax.add {
+  name = "Wren",
+  files = { "%.wren$" },
+  comment = "//",
+  patterns = {
+    { pattern = "//.-\n",                 type = "comment"  },
+    { pattern = { "/%*", "%*/" },         type = "comment"  },
+    { pattern = { '"', '"', '\\' },       type = "string"   },
+    { pattern = { "'", "'", '\\' },       type = "string"   },
+    { pattern = "-?%.?%d+",               type = "number"   },
+    { pattern = "%.%.%.?",                type = "operator" },
+    { pattern = "[<>!=]=",                type = "operator" },
+    { pattern = "[%+%-=/%*%^%%<>!~|&?:]", type = "operator" },
+    { pattern = "[%a_][%w_]*%s*%f[(\"{]", type = "function" },
+    { pattern = "[%a_][%w_]*",            type = "symbol"   },
+  },
+  symbols = {
+    ["break"]     = "keyword",
+    ["class"]     = "keyword",
+    ["construct"] = "keyword",
+    ["else"]      = "keyword",
+    ["for"]       = "keyword",
+    ["foreign"]   = "keyword",
+    ["if"]        = "keyword",
+    ["import"]    = "keyword",
+    ["in"]        = "keyword",
+    ["is"]        = "keyword",
+    ["return"]    = "keyword",
+    ["static"]    = "keyword",
+    ["super"]     = "keyword",
+    ["var"]       = "keyword",
+    ["while"]     = "keyword",
+    ["this"]      = "keyword2",
+    ["true"]      = "literal",
+    ["false"]     = "literal",
+    ["null"]      = "literal",
+  },
+}
