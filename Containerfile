@@ -14,13 +14,13 @@ COPY ${RECIPE} /tmp/ublue-recipe.yml
 # copied from the official container image as it's not avaible as an rpm
 COPY --from=docker.io/mikefarah/yq /usr/bin/yq /usr/bin/yq
 
+# copy and setup my binaries
+COPY myapps  /tmp/myapps
+RUN chmod +x /tmp/myapps/setup-apps.sh && /tmp/myapps/setup-apps.sh
+
 # copy and run the build script
 #COPY build.sh /tmp/build.sh
 #RUN chmod +x /tmp/build.sh && /tmp/build.sh
-
-# copy and setup binaries
-COPY myapps  /tmp/myapps
-RUN chmod +x /tmp/myapps/setup-apps.sh && /tmp/myapps/setup-apps.sh
 
 # clean up and finalize container build
 RUN rm -rf \

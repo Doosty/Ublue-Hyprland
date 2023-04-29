@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source="."
+source="/tmp/myapps"
 dest="/"
 # loop over sub-directories in source
 find "$source" -mindepth 1 -maxdepth 1 -type d | while read subdir; do
