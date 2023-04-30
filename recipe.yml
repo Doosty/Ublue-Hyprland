@@ -40,7 +40,7 @@ rpms:
   - wev
   - yt-dlp
   - tailscale
-  #- discord
+  #- discord #webcord from flatpak?
 
   #text editor
   - helix
@@ -64,15 +64,15 @@ rpms:
   - swappy
 
   #pick one
-  #- dunst
+  - dunst
   - mako
   #pick one
-  #- wofi
+  - wofi
   - fuzzel
   #pick one
   - kitty
-  #- alacritty
-  #- foot
+  - alacritty
+  - foot
   #wezterm not in rpm
 
   
