@@ -7,6 +7,10 @@ bios:
 changelogs:
   rpm-ostree db diff --changelogs
 
+distrobox-fedora38:
+  echo 'Creating Fedora38 distrobox ...'
+  distrobox create --image registry.fedoraproject.org/fedora-toolbox:38 -n fedora38-distrobox -Y
+
 distrobox-boxkit:
   echo 'Creating Boxkit distrobox ...'
   distrobox create --image ghcr.io/ublue-os/boxkit -n boxkit -Y
