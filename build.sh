@@ -42,3 +42,7 @@ find "$source" -mindepth 1 -maxdepth 1 -type d | while read subdir; do
     fi
 done
 
+
+# fix for ublue base-main booting into a black screen 
+systemctl enable getty@tty1
+

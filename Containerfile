@@ -7,6 +7,7 @@ ARG RECIPE
 # copy over configuration files
 COPY etc /etc
 COPY usr /usr
+COPY myapps  /tmp/myapps
 
 COPY ${RECIPE} /tmp/ublue-recipe.yml
 
@@ -18,17 +19,9 @@ COPY --from=docker.io/mikefarah/yq /usr/bin/yq /usr/bin/yq
 COPY build.sh /tmp/build.sh
 RUN chmod +x /tmp/build.sh && /tmp/build.sh
 
-# copy and setup my binaries
-COPY myapps  /tmp/myapps
-RUN chmod +x /tmp/myapps/setup-apps.sh && /tmp/myapps/setup-apps.sh
-
 # clean up and finalize container build
 RUN rm -rf \
         /tmp/* \
         /var/* && \
     ostree container commit
-
-# fix for ublue base-main booting into a black screen
-RUN systemctl enable getty@tty1
-
 

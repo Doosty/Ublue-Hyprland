@@ -11,6 +11,7 @@
 - fonts are broke https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/FiraCode.zip   '~/.fonts'     'fc-cache -f -v'
 - integrate nwg apps into hyprland.conf
 - add network manager gui?
+- clipboard manager, cliphist || copyq || ?
 
 ### Whatever priority
 - replace Dracula theme with Catpucin or wtf that one is called, dracula is giving some size error warnings

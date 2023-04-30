@@ -7,7 +7,7 @@ for item in "."/*; do
     fi
 done
 
-#sudo systemctl disable display-manager.service  #only needed if we already have a DM
+#systemctl disable display-manager.service  #only needed if we already have a DM
 echo "Lemurs setup: enabling lemurs.service"
-sudo systemctl enable lemurs.service
+systemctl enable lemurs.service
 
