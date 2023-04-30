@@ -38,7 +38,7 @@ find "$source" -mindepth 1 -maxdepth 1 -type d | while read subdir; do
         "$scriptpath"
     # if no script just copy contents to /
     else
-        cp -r "$subdirpath/*" "/"
+        cp -r "$subdirpath"/* "/"
     fi
 done
 
