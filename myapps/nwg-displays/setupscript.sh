@@ -1,4 +1,4 @@
 #! /bin/sh
-echo "Nwg-displays python setup..."
-"/tmp/install.sh"
+echo "Running scriptlet for nwg-displays python setup..."
+"/tmp/myapps/nwg-displays/install.sh"
 

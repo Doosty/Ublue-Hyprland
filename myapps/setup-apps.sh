@@ -2,6 +2,7 @@
 
 source="/tmp/myapps"
 dest="/"
+
 # loop over sub-directories in source
 find "$source" -mindepth 1 -maxdepth 1 -type d | while read subdir; do
     # copy dirs inside subdir
@@ -15,9 +16,9 @@ find "$source" -mindepth 1 -maxdepth 1 -type d | while read subdir; do
     # if setupscript exists, make executable and run
     if [ -f "$setupscript" ]; then
         if [ ! -x "$setupscript" ]; then
+            echo "Running scriptlet for $subdir"
 	    chmod +x "$setupscript"
         fi
-        echo "Setting up $subdir"
         "$setupscript"
     fi
 done
