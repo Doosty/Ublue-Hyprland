@@ -26,12 +26,14 @@ rpms:
   - copyq
   - thunar
   - thunar-archive-plugin
-  - thunar-volman
+  #- thunar-volman
+  - python3-udiskie
   - wlogout
   - btop
   - imv
   - zathura
   - qt5ct
+  - qt6ct
   - neofetch
   - mpv
   - gparted
@@ -81,8 +83,9 @@ rpms:
 # this is just an example selection.
 # If you leave this empty you can use yafti for post-boot installation
 flatpaks:
-  - org.mozilla.firefox
   - org.freedesktop.Platform.ffmpeg-full
+  - org.mozilla.firefox
+  - com.github.tchx84.Flatseal
   # make noninteractive ->  //22.05 -y --noninteractive
   #- com.discordapp.Discord # force wayland ->flatpak override --user --socket=wayland com.discordapp.Discord
   #- io.github.spacingbat3.webcord

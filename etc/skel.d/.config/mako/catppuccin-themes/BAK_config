@@ -4,6 +4,9 @@ ignore-timeout=true
 actions=true
 format=<b>%s</b>\n%b
 font=monospace 11
+background-color=#101010
+text-color=#FFFFFFFF
+border-color=#330033
 max-visible=5
 sort=-time
 layer=top
@@ -12,18 +15,11 @@ width=400
 height=150
 margin=25
 padding=5
-border-size=2
+border-size=1
 border-radius=3
+progress-color=over #5588AAFF
 icons=true
 max-icon-size=64
 markup=true
 
-
-# Catpucin theming
-background-color=#24273a
-text-color=#cad3f5
-border-color=#8aadf4
-progress-color=over #363a4f
-[urgency=high]
-border-color=#f5a97f
 
