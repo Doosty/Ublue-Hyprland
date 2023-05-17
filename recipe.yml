@@ -10,7 +10,7 @@ rpms:
   - xfce-polkit
   - libnotify
   - thunar
-  - thunar-archive-plugin
+  #- thunar-archive-plugin
   - mousepad
   - udiskie
   - wlogout
@@ -60,7 +60,7 @@ rpms:
   # nwg-displays & udiskie dep
   - wlr-randr
   # udiskie dep
-  - libappindicator
+  - libappindicator-gtk3
 
   # from my copr, probably broke ass apps
   - keyd

@@ -25,9 +25,9 @@ done
 # fix ublue base-main booting into a black screen 
 systemctl enable getty@tty1
 
-# fix greetd
-semanage fcontext -a -ff -t xdm_exec_t /usr/bin/greetd
-restorecon /usr/bin/greetd
+# try to fix greetd
+#semanage fcontext -a -ff -t xdm_exec_t /usr/bin/greetd
+#restorecon /usr/bin/greetd
 #this here has no effect, user has to run it: systemctl set-default graphical.target
-systemctl enable greetd.service
+#systemctl enable greetd.service
 
