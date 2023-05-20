@@ -31,6 +31,7 @@ rpms:
   - yt-dlp
   - tailscale
   - xarchiver
+  - vkBasalt
   #- dbus-tools
   # launchers
   - wofi
