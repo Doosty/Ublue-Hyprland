@@ -10,6 +10,8 @@ rpms:
   - xfce-polkit
   - libnotify
   - thunar
+  - qt6-qtwayland
+  - dbus-tools
   #- thunar-archive-plugin
   - mousepad
   - udiskie
@@ -31,7 +33,7 @@ rpms:
   - yt-dlp
   - tailscale
   - xarchiver
-  - vkBasalt
+  #- vkBasalt
   #- dbus-tools
   # launchers
   - wofi
