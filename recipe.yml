@@ -50,6 +50,7 @@ rpms:
   - virt-viewer
   - libvirt-client
   - libvirt-daemon-kvm
+  - waydroid
   # screenshotting 
   - grim
   - slurp
