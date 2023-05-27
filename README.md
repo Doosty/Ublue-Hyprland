@@ -35,3 +35,5 @@
 -  # make noninteractive ->  //22.05 -y --noninteractive
 -  #- com.discordapp.Discord # force wayland ->flatpak override --user --socket=wayland com.discordapp.Discord
 -  #- io.github.spacingbat3.webcord
+
+
