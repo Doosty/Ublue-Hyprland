@@ -59,8 +59,8 @@ rpms:
   - swappy
   - wf-recorder
   # sway used to display login greeter, then exit
-  #- sway
-  #- greetd
+  - sway
+  - greetd
   # nwg-displays & udiskie dep
   - wlr-randr
   # udiskie dep
