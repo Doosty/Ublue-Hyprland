@@ -33,6 +33,7 @@ rpms:
   - yt-dlp
   - tailscale
   - xarchiver
+  - task
   #- vkBasalt
   #- dbus-tools
   # launchers
@@ -41,6 +42,8 @@ rpms:
   # terminals
   - kitty
   - alacritty
+  # shell
+  - zsh
   # text editor
   - helix
   # yafti deps
@@ -69,6 +72,9 @@ rpms:
   # from my copr, probably broke ass apps
   - keyd
   - nwg-displays
+
+  # backups
+  - kopia-ui
   
 flatpaks:
   - org.freedesktop.Platform.ffmpeg-full/x86_64/22.08

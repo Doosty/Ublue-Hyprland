@@ -36,4 +36,5 @@
 -  #- com.discordapp.Discord # force wayland ->flatpak override --user --socket=wayland com.discordapp.Discord
 -  #- io.github.spacingbat3.webcord
 
+https://kdheepak.com/taskwarrior-tui/keybindings/
 
